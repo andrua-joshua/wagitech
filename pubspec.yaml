@@ -68,6 +68,7 @@ flutter:
   assets:
     - assets/images/redcross.jpeg
     - assets/images/donate_art.png
+    - assets/images/wagitech.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -5,6 +5,7 @@ import 'package:google_challange/screens/login_screen/login_screen.dart';
 import 'package:google_challange/screens/profile_screen/profile_screen.dart';
 import 'package:google_challange/screens/signup_screen/signup_screen.dart';
 import 'package:google_challange/screens/welcome_screen/welcome_screen.dart';
+import 'package:google_challange/wagitek/screen/home_screen/home_screen.dart';
 
 class RouteGenerator{
 
@@ -22,7 +23,7 @@ class RouteGenerator{
           builder: (context) => const WelcomeScreen());     
       case homeScreen:
         return MaterialPageRoute(
-          builder: (context) => const HomeScreen());
+          builder: (context) => const WagiTechHomeScreen());
       case donationSiteDetailsScreen:
         final String arg = settings.arguments.toString();
         return MaterialPageRoute(

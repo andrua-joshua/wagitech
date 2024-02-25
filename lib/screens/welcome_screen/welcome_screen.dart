@@ -19,7 +19,7 @@ class WelcomeScreen extends StatelessWidget{
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-                  Image.asset(AppImages.donateArtImage),
+                  Image.asset("assets/images/wagitech.jpg"),
                   
                   // const Text(
                   //   "Find your donar now with us lets donate.",

@@ -76,7 +76,7 @@ class DonationsSiteDetailsScreen extends StatelessWidget{
                     );
                   },),
               ),
-              SizedBox(height: 40,),
+              const SizedBox(height: 40,),
               CreateAppointmentWidget(centerId: donationSite,)
               
             ],
